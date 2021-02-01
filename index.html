@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="calc.css">
+</head>
+<body>
+  <div class="calculator">
+    <form name="myForm" class="">
+      <input  id="result" type="text" name="textview" class="textview">
+    </form>
+    <table>
+        <tr>
+          <td><button type="button" class="button symbol" onclick="clearAll()">C</button></td>
+          <td><button type="button" class="button symbol" onclick="clearEntry()">CE</button></td>
+          <td><button type="button" name="button" class="button symbol" onclick="insert('/')">/</button></td>
+
+        </tr>
+      <tr>
+        <td><button type="button" name="button" class="button num" onclick="insert(7)">7</button></td>
+        <td><button type="button" name="button" class="button num" onclick="insert(8)">8</button></td>
+        <td><button type="button" name="button" class="button num" onclick="insert(9)">9</button></td>
+        <td><button type="button" name="button" class="button symbol" onclick="insert('*')">*</button></td>
+
+      </tr>
+      <tr>
+        <td><button type="button" name="button" class="button num" onclick="insert(4)">4</button></td>
+        <td><button type="button" name="button" class="button num" onclick="insert(5)">5</button></td>
+        <td><button type="button" name="button" class="button num" onclick="insert(6)">6</button></td>
+        <td><button type="button" name="button" class="button symbol" onclick="insert('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" name="button" class="button num" onclick="insert(1)">1</button></td>
+        <td><button type="button" name="button" class="button num" onclick="insert(2)">2</button></td>
+        <td><button type="button" name="button" class="button num" onclick="insert(3)">3</button></td>
+        <td><button type="button" name="button" class="button symbol" onclick="insert('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" name="button" class="button num" onclick="insert(0)">0</button></td>
+        <td><button type="button" name="button" class="button num" onclick="insert(00)">00</button></td>
+        <td><button type="button" name="button" class="button num" onclick="insert('.')">.</button></td>
+        <td><button name="button" type="button" class="button symbol" onclick="sumValues()">=</button></td>
+      </tr>
+    </table>
+  </div>
+</body>
+<script src="calc.js"></script>
+</html>

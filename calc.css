@@ -1,0 +1,49 @@
+.calculator{
+  width: 343px;
+  height: 352px;
+  background: #333D51;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  LEFT: 30%;
+}
+
+.button {
+  width: 75px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+}
+
+.num{
+  background-color: #CBD0D8;
+}
+
+.symbol{
+  background-color: #D3AC2B;
+  color: #CBD0D8;
+}
+
+.textview{
+  width: 320px;
+  border: #333D51;
+  border-style: solid;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.danger{
+  border: red;
+  border-style: double;
+}
+
+input{
+  color: #333D51;
+  padding-left: 10px;
+  text-align: right;
+  padding-right: 10px;
+  font-size: larger;
+}
